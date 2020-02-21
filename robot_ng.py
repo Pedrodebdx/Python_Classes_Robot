@@ -20,3 +20,7 @@ class RobotNG(Robot):
     def avancer_ng(self,nbre_de_pas):
         for i in range(nbre_de_pas):
             Robot.avancer(self)
+
+    def demi_tour(self):
+        Robot.tourner_droite(self)
+        Robot.tourner_droite(self)

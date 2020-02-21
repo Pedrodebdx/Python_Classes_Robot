@@ -43,3 +43,7 @@ robot2.statut()
 print(' ---------------------- AVANCER_NG -----------------------------')
 robot2.avancer_ng(12)
 robot2.statut()
+
+print(' ---------------------- DEMI-TOUR -----------------------------')
+robot2.demi_tour()
+robot2.statut()
